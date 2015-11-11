@@ -1,10 +1,10 @@
-package demo
+package hello
 
 import kotlin.test.assertEquals
-import org.junit.Test as test
+import org.junit.Test
 
 class TestSource {
-    @test fun f() {
+    @Test fun testMain() {
         main(arrayOf<String>())
     }
 }
