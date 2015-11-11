@@ -28,3 +28,13 @@ test {
 task wrapper(type: Wrapper) {
     gradleVersion = "2.4"
 }
+
+apply plugin: 'application'
+
+mainClassName = 'demo.DemoPackage'
+
+defaultTasks 'run'
+
+run {
+    standardInput = System.in
+}
