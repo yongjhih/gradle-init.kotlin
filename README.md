@@ -1,5 +1,5 @@
 # gradle-init.kt
 
 ```sh
-./gradlew test
+./gradlew run
 ```
